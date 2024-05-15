@@ -1,0 +1,177 @@
+/*********** Flex layout ***********/
+.flex__center {
+	display: flex;
+	align-items: center;
+}
+
+.flex_j_center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex_center {
+	display: flex;
+	justify-content: center;
+}
+
+.flex_c_center {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.flex_c_start {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.flex_between_center {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex_between {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex_around {
+	display: flex;
+	justify-content: space-around;
+}
+
+.flex_around_center {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.flex_start {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.flex_end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.flex_end_center {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.flex_end_end {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.flex_center_center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex_wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex_shrink {
+	flex-shrink: 0;
+}
+
+.flex {
+	display: flex;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.flex_1 {
+	flex: 1;
+}
+
+/*********** FontSize ***********/
+.fz11 {
+	font-size: 11px;
+}
+
+.fz12 {
+	font-size: 12px;
+}
+
+.fz13 {
+	font-size: 13px;
+}
+
+.fz14 {
+	font-size: 14px;
+}
+
+.fz15 {
+	font-size: 15px;
+}
+
+.fz16 {
+	font-size: 16px;
+}
+
+/*********** FontWeight***********/
+.family_blod {
+	font-family: "PingFang Bold";
+	font-weight: bold
+}
+
+.family_medium {
+	font-family: "PingFang Medium";
+	font-weight: 400;
+}
+
+/*********** Color ***********/
+.color_3 {
+	color: rgba(51, 51, 51, 1)
+}
+
+.color_3_3 {
+	color: rgba(51, 51, 51, 0.3)
+}
+
+.color_3_4 {
+	color: rgba(51, 51, 51, 0.4)
+}
+
+.color_3_5 {
+	color: rgba(51, 51, 51, 0.5)
+}
+
+.absolute_center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@each $key, $value in m margin, p padding {
+	@for $index from 1 through 50 {
+		// m20 => margin: 20px
+		// p20 => padding: 20px
+		.#{ $key }#{ $index} {
+			#{ $value }: $index + px !important
+		}
+		
+		// m-top-20 => margin-top: 20px
+		// m-left-20 => margin-left: 20px
+		@each $app in top, bottom, left, right {
+			.#{ $key }-#{ $app }-#{ $index } {
+				#{ $value }-#{ $app }: $index + px !important
+			}
+		}
+	}
+}

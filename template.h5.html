@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>
+			<%= htmlWebpackPlugin.options.title %>
+		</title>
+		<!-- Open Graph data -->
+		<meta property="og:title" content="国学中医" />
+		<meta property="og:image" content="https://leisbanon-preview.oss-cn-shanghai.aliyuncs.com/image/app.png">
+		<link rel="apple-touch-icon" href="https://leisbanon-preview.oss-cn-shanghai.aliyuncs.com/image/app.png">
+		<link rel="icon" href="https://leisbanon-preview.oss-cn-shanghai.aliyuncs.com/image/app.png">
+		<meta property="og:description" content="倪海厦（1954年-2012年），生于中国台湾，祖籍瑞安市林川镇岭下村，美国中医师，中医学博士。倪海厦在美国行医逾二十年，曾任美国加州中医药大学博士指导教授、美国汉唐中医学院院长、佛罗里达州政府卫生厅厅长等职务。2012年，倪海厦因病去世，享年59岁。" />
+		<script>
+			var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+			document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+		</script>
+		<link rel="stylesheet" href="<%= BASE_URL %>static/index.<%= VUE_APP_INDEX_CSS_HASH %>.css" />
+	</head>
+	<body>
+		<noscript>
+			<strong>Please enable JavaScript to continue.</strong>
+		</noscript>
+		<div id="app"></div>
+		<!-- built files will be auto injected -->
+	</body>
+</html>

@@ -1,0 +1,76 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/maxDictionary/index",
+			"style": {
+				"navigationBarTitleText": "中药大辞典"
+			}
+		},
+		{
+			"path": "pages/maxDictionary/search",
+			"style": {
+				"navigationBarTitleText": "中药大辞典"
+			}
+		},
+		{
+			"path": "pages/maxDictionary/list",
+			"style": {
+				"navigationBarTitleText": "验方（HOME）"
+			}
+		},
+		{
+			"path": "pages/maxDictionary/group",
+			"style": {
+				"navigationBarTitleText": "我的验方"
+			}
+		},
+		{
+			"path": "pages/maxDictionary/webview",
+			"style": {
+				"navigationBarTitleText": "百科详情"
+			}
+		},
+		{
+			"path": "pages/maxDictionary/result",
+			"style": {
+				"navigationBarTitleText": "中药功效主治查询"
+			}
+		},
+		{
+			"path": "pages/maxDictionary/star",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		
+		// 视频
+		{
+			"path": "pages/video/index",
+			"style": {
+				"navigationBarTitleText": "类目"
+			}
+		},
+		{
+			"path": "pages/main/index",
+			"style": {
+				"navigationBarTitleText": "倪海厦"
+			}
+		},
+		{
+			"path": "pages/main/list",
+			"style": {
+				"navigationBarTitleText": "倪海厦文献"
+			}
+		},
+		{
+			"path": "pages/main/player",
+			"style": {
+				"navigationBarTitleText": "正在播放"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom"
+	},
+	"uniIdRouter": {}
+}
