@@ -39,10 +39,9 @@
 			this.address = decodeURIComponent(e.url)
 			this.name = decodeURIComponent(e.name)
 			this.runtimeSys = this.returnSys()
-			console.log(this.runtimeSys)
 			
 			this.$nextTick(() => {
-				uni.setNavigationBarTitle({ title: this.name })
+				this.runtimeSys != 'window' && uni.setNavigationBarTitle({ title: this.name })
 				
 				for(let meta of document.querySelectorAll('meta')) {
 					let attr = meta.getAttribute('property')
@@ -127,7 +126,7 @@
 			initPlayer() {
 				this.mp = new MuiPlayer({
 				    container: '#mui-player',
-				    title: this.name,
+				    title: this.runtimeSys != 'window' ? this.name : '',
 				    src: this.address,
 					poster: `${ this.address }?x-oss-process=video/snapshot,t_1000,m_fast`,
 					// autoplay: true,
