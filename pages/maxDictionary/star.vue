@@ -38,7 +38,7 @@
 				if(f_data.length > 0) {
 					this.$com.toHref(`/pages/maxDictionary/result?name=${ name }`)
 				}else {
-					this.$com.toHref(`/pages/maxDictionary/webview?name=${ name }`)
+					window.open(`https://baike.baidu.com/item/${ name }`, `__${ name }`)
 				}
 			}
 		}

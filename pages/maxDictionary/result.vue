@@ -94,7 +94,7 @@
 						})
 						
 						wind.then(() => {
-							this.$com.toHref(`/pages/maxDictionary/webview?name=${ this.name }`)
+							window.open(`https://baike.baidu.com/item/${ this.name }`, `__${ this.name }`)
 						})
 					}
 				} finally {
@@ -147,7 +147,7 @@
 			},
 			toDetail(item) {
 				let name = this.nameReCall(item.name)
-				this.$com.toHref(`/pages/maxDictionary/webview?name=${ name || item.name }`)
+				window.open(`https://baike.baidu.com/item/${ name || item.name }`, `__${ name || item.name }`)
 			},
 			// 加入收藏
 			async addFormula(item) {

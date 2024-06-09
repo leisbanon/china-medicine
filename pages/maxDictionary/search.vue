@@ -16,7 +16,7 @@
 		
 		<view class="content">
 			<view class="item fz16 family_blod flex_between_center" v-for="(name, index) of medicineListPaging" :key="index">
-				<view @click="$com.toHref(`/pages/maxDictionary/webview?name=${ name }`)">{{ name }}</view>
+				<view @click="toBaike(name)">{{ name }}</view>
 				
 				<view v-if="formulaList.indexOf(name) == -1" tabindex="0" class="pointer item__add flex__center" style="color: #F82626;" @click.prevent="addFormula(name)">
 					<image src="@/static/img/add.png" style="width: 15px;height: 15px;margin-right: 3px;"></image>
@@ -114,6 +114,9 @@
 			this.onNameInput()
 		},
 		methods: {
+			toBaike(name) {
+				window.open(`https://baike.baidu.com/item/${ name }`, `__${ name }`)
+			},
 			reset() {
 				this.formulaList = []
 			},
