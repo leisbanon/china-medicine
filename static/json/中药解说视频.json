@@ -1,0 +1,226 @@
+[
+	{
+		"name": "甘草",
+		"taste": "甜、甘",
+		"effect": "解毒，调和",
+		"baike": "https://baike.baidu.com/item/甘草",
+		"video": "v.douyin.com/ijgY5Rku/"
+	},
+	{
+		"name": "干姜",
+		"taste": "辛、热",
+		"effect": "温中散寒，回阳通脉，温肺化饮",
+		"baike": "https://baike.baidu.com/item/干姜",
+		"video": "ixigua.com/7359086916538630719"
+	},
+	{
+		"name": "射干",
+		"taste": "苦、寒",
+		"effect": "清热解毒，消痰，利咽",
+		"baike": "https://baike.baidu.com/item/射干",
+		"video": "v.douyin.com/ijXgyMhd/"
+	},
+	{
+		"name": "麻黄",
+		"taste": "辛、苦、温",
+		"effect": "发汗、散寒",
+		"baike": "https://baike.baidu.com/item/麻黄",
+		"video": "v.douyin.com/ijXpNasq/"
+	},
+	{
+		"name": "细辛",
+		"taste": "辛、温",
+		"effect": "解表散寒，祛风止痛，通窍，温肺化饮",
+		"baike": "https://baike.baidu.com/item/细辛",
+		"video": "v.douyin.com/ijg6hR37"
+	},
+	{
+		"name": "紫苑",
+		"taste": "辛、苦、温",
+		"effect": "温肺，下气，消痰，止咳。治风寒咳嗽气喘",
+		"baike": "https://baike.baidu.com/item/紫苑",
+		"video": "v.douyin.com/ijXpgbMH/"
+	},
+	{
+		"name": "款冬花",
+		"taste": "辛、微甘，性温。",
+		"effect": "温肺，下气，消痰，止咳。治风寒咳嗽气喘，虚劳咳吐脓血，喉痹，小便不利",
+		"baike": "https://baike.baidu.com/item/款冬花",
+		"video": "ixigua.com/7244880283860730427"
+	},
+	{
+		"name": "五味子",
+		"taste": "酸、温",
+		"effect": "敛肺，滋肾，生津，涩精，治肺虚喘咳，口干作渴",
+		"baike": "https://baike.baidu.com/item/五味子",
+		"video": "v.douyin.com/ijgRwvbH/"
+	},
+	{
+		"name": "大枣",
+		"taste": "甘、温",
+		"effect": "养血安神、护胃、养胃、缓和药性",
+		"baike": "https://baike.baidu.com/item/大枣",
+		"video": "v.douyin.com/ijXd6ANX/"
+	},
+	{
+		"name": "半夏",
+		"taste": "辛、毒",
+		"effect": "镇咳、去痰、开喉",
+		"baike": "v.douyin.com/ijXdwE7g/",
+		"video": "https://baike.baidu.com/item/半夏"
+	},
+	{
+		"name": "厚朴",
+		"taste": "温",
+		"effect": "温中下气、燥湿、消痰",
+		"baike": "https://baike.baidu.com/item/厚朴",
+		"video": "ixigua.com/7250859964506473015"
+	},
+	{
+		"name": "石膏",
+		"taste": "甘、寒",
+		"effect": "解热",
+		"baike": "https://baike.baidu.com/item/石膏",
+		"video": "v.douyin.com/ijXFjF8v/"
+	},
+	{
+		"name": "杏仁",
+		"taste": "苦、微温",
+		"effect": "镇咳、祛痰、平喘、润肠",
+		"baike": "https://baike.baidu.com/item/杏仁",
+		"video": "v.douyin.com/ijgdQa1a/"
+	},
+	{
+		"name": "小麦",
+		"taste": "甘、凉",
+		"effect": "养心、除烦、除渴",
+		"baike": "https://baike.baidu.com/item/小麦",
+		"video": "ixigua.com/7277753516893045287"
+	},
+	{
+		"name": "芍药",
+		"taste": "苦、酸",
+		"effect": "镇痛、镇痉、祛瘀、通经",
+		"baike": "https://baike.baidu.com/item/芍药",
+		"video": "v.douyin.com/ijXVfpg3/"
+	},
+	{
+		"name": "桂枝",
+		"taste": "辛、甘、温",
+		"effect": "发汗解肌，温通经脉，助阳化气，平冲降气",
+		"baike": "https://baike.baidu.com/item/桂枝/16048672",
+		"video": "v.douyin.com/ijg6U4nn"
+	},
+	{
+		"name": "桔梗",
+		"taste": "辛、温",
+		"effect": "宣肺，利咽，祛痰，排脓。用于咳嗽痰多，胸闷不畅，咽痛，音哑，肺痈吐脓",
+		"baike": "https://baike.baidu.com/item/桔梗",
+		"video": "v.douyin.com/ijXqEDN3/"
+	},
+	{
+		"name": "紫参（拳参）",
+		"taste": "苦、微寒、小毒",
+		"effect": "清热利湿，凉血止血，解毒散结。主治肺热咳嗽，热病惊痫，赤痢，热泻，吐血",
+		"baike": "https://baike.baidu.com/item/拳参",
+		"video": "v.douyin.com/ijgSJHGF/"
+	},
+	{
+		"name": "泽漆",
+		"taste": "辛、苦、凉、毒",
+		"effect": "逐水消肿，散结，杀虫",
+		"baike": "https://baike.baidu.com/item/泽漆",
+		"video": "v.douyin.com/ijXbkMDt/"
+	},
+	{
+		"name": "白前",
+		"taste": "辛、温",
+		"effect": "祛痰、降气、止咳，主治肺气壅实、痰多而咳嗽不爽、气逆喘促",
+		"baike": "https://baike.baidu.com/item/白前",
+		"video": "v.douyin.com/ijXbX1ma/"
+	},
+	{
+		"name": "黄芩",
+		"taste": "苦、平",
+		"effect": "消痰利气、热、黄痘，去水肿、恶疮、火疡",
+		"baike": "https://baike.baidu.com/item/黄芩",
+		"video": "v.douyin.com/ijXbaVCC/"
+	},
+	{
+		"name": "黄芪",
+		"taste": "甘、微温",
+		"effect": "补气固表、利尿、强心、降压、表虚自汗、气虚内伤、精神萎靡、四肢无力、脾虚泄泻、体虚多汗",
+		"baike": "https://baike.baidu.com/item/黄芪",
+		"video": "v.douyin.com/ijgAPk6v"
+	},
+	{
+		"name": "人参",
+		"taste": "苦、甘、微温",
+		"effect": "补气固脱、健脾益肺、宁心益智",
+		"baike": "https://baike.baidu.com/item/人参",
+		"video": "ixigua.com/7355769608525054501"
+	},
+	{
+		"name": "葶苈子",
+		"taste": "辛、苦、寒",
+		"effect": "泻肺降气，祛痰平喘，利水消肿，泄热逐邪",
+		"baike": "https://baike.baidu.com/item/葶苈子",
+		"video": "v.douyin.com/ijXbEHwk"
+	},
+	{
+		"name": "麦门冬",
+		"taste": "甘、苦、寒",
+		"effect": "肺燥干咳；吐血；咯血；肺痿；肺痈",
+		"baike": "https://baike.baidu.com/item/麦门冬",
+		"video": "v.douyin.com/ijXbwXfT"
+	},
+	{
+		"name": "天门冬",
+		"taste": "苦、性平",
+		"effect": "主治阴虚发热，咳嗽吐血，肺痿，肺痈，咽喉肿痛，消渴，便秘，小便不利",
+		"baike": "https://baike.baidu.com/item/天门冬",
+		"video": "v.douyin.com/ijgSTSBs"
+	},
+	{
+		"name": "贝母",
+		"taste": "甘、苦、微寒",
+		"effect": "清热润肺；化痰止咳；散结消肿。主肺虚；久咳；虚劳咳嗽；燥热咳嗽；肺痈",
+		"baike": "https://baike.baidu.com/item/川贝母",
+		"video": "ixigua.com/7225234697911271992"
+	},
+	{
+		"name": "冬瓜子",
+		"taste": "甘、性寒",
+		"effect": "清肺化痰，消痈排脓，利湿。用于痰热咳嗽，肺痛，肠痛",
+		"baike": "https://baike.baidu.com/item/冬瓜子",
+		"video": "v.douyin.com/ijgAyGMW"
+	},
+	{
+		"name": "丹参",
+		"taste": "苦、微寒",
+		"effect": "祛瘀、生新、活血、调经",
+		"baike": "https://baike.baidu.com/item/丹参",
+		"video": "v.douyin.com/ijgAsNQh"
+	},
+	{
+		"name": "芦根",
+		"taste": "甘、寒",
+		"effect": "清热泻火、生津止渴、除烦、止呕、利尿；可用于热病烦渴、肺热咳嗽、肺痛吐脓",
+		"baike": "https://baike.baidu.com/item/芦根",
+		"video": "v.douyin.com/ijgD1J5v"
+	},
+	{
+		"name": "桑黄",
+		"taste": "微苦、性寒",
+		"effect": "活血，止血，化饮，止泻，止痛、妇人劳损、抗癌",
+		"baike": "https://baike.baidu.com/item/桑黄",
+		"video": "v.douyin.com/ijgDWCmF"
+	},
+	{
+		"name": "苦参",
+		"taste": "苦、寒",
+		"effect": "清热利湿，抗菌消炎，健胃驱虫",
+		"baike": "https://baike.baidu.com/item/苦参",
+		"video": "v.douyin.com/ijgUdfYU"
+	}
+]

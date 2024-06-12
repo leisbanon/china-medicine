@@ -42,6 +42,12 @@
 				"navigationBarTitleText": "我的收藏"
 			}
 		},
+		{
+			"path": "pages/medicineMedia/index",
+			"style": {
+				"navigationBarTitleText": "中药解说"
+			}
+		},
 		
 		// 视频
 		{

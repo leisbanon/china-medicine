@@ -14,6 +14,11 @@ export const medicineTreatment = () => request.get('https://leisbanon.cn/中药�
 // 我的验方
 export const formulaStore = () => request.get('https://leisbanon.cn/我的验方.json')
 
+// 中药解说视频
+export const medicineMedias = () => request.get('https://leisbanon.cn/中药解说视频.json')
+
+
+
 
 
 

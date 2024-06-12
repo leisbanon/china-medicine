@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>C Medical Example</title>
+</head>
+<body>
+	
+</body>
+
+<script>
+	var names = [
+		["甘草","干姜"],
+		["半夏","紫参","泽漆","生姜","白前","黄芩","人参","桂枝"],
+		["射干","麻黄","生姜","细辛","紫菀","款冬花","五味子","大枣","半夏"],
+		["厚朴","麻黄","石膏","杏仁","半夏","干姜","细辛","小麦","五味子"],
+		["麻黄","芍药","桂枝","细辛","甘草","干姜","五味子","半夏","石膏"],
+		["桔梗","甘草"],
+		["半夏","紫参","泽漆","生姜","白前","黄芩","人参","桂枝"],
+		["皂荚"],
+		["葶苈","大枣"],
+		["麻黄","石膏","生姜","大枣","甘草","半夏"],
+		["麦门冬","半夏","人参","甘草","粳米","大枣"],
+	]
+	
+	// 统计全部验方药方总数量【isRepeat 是否去重】
+	function count__formula_all(isRepeat) {
+		let list_concat = []
+		names.forEach(list => {
+			list_concat = [
+				...list_concat,
+				...list,
+			]
+		})
+		
+		if(isRepeat === true) {
+			return Array.from(new Set(list_concat))
+		}else {
+			return list_concat
+		}
+	}
+	
+	
+	
+	let v_inrepeat = count__formula_all(true) // 去重
+	let v_unrepeat = count__formula_all(false) // 不去重
+	
+	console.log('v_inrepeat => ', v_inrepeat.length)
+	console.log('v_unrepeat => ', v_unrepeat.length)
+	
+	let listCount = []
+	for(let inname of v_inrepeat) {
+		let count = v_unrepeat.filter(unname => inname == unname).length
+		
+		listCount.push({
+			name: inname,
+			count: count
+		})
+	}
+	
+	listCount.sort((v1, v2) => {
+		return v2.count - v1.count
+	})
+	
+	console.log('listCount => ', listCount)
+	
+	listCount = listCount.map(item => item.name)
+	
+	var listCount__text = listCount.join('\n')
+	document.body.innerText = listCount__text
+</script>
+</html>
